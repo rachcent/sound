@@ -15,8 +15,8 @@ function setup() {
  dolphinImage = select('#dolphin');
 
 function toggleDolphin(){
-	ecoSong.setVolume(0.3);
-	ecoSong.play();
+	ecoSong.setVolume(0.5);
+	ecoSong.loop();
 
 }
 
