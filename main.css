@@ -1,12 +1,18 @@
+html,body {
+  margin:0;
+  padding: 0;
+}
 
-
-/* sets canvas to be aligned to top right of screen
-position absolute will stop it from scrolling */
 canvas {
-  margin: auto;
-  top: 0;
-  left: 0;
-  position: absolute;
-  /* uncomment next line to position the canvas BEHIND the HTML */
-  z-index: -1;
+  display: block;
+}
+
+button {
+  font-size:24px;
+  padding: 10px;
+}
+
+.content {
+  max-width:600px;
+  margin:50px auto;
 }
